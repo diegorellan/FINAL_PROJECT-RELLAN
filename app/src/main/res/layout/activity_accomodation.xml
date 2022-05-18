@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccomodationActivity">
+
+    <ScrollView
+        android:layout_width="375dp"
+        android:layout_height="654dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/accomodation_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROPOSALS FOR ACCOMMODATION"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/first_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sercotel Grand Hotel Zurbarán"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/sercotel_1"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                app:srcCompat="@drawable/sercotel_1" />
+
+            <TextView
+                android:id="@+id/sercotel_description"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Located right in the city centre, this hotel offers an amazing - although costy - experience of the city"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/sercotel_description2"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:text="This 4-stars hotel features wi-fi, TV, awakening service, private bathroom, heating and a fabulous gym"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/sercotel_2"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                app:srcCompat="@drawable/sercotel_2" />
+
+            <TextView
+                android:id="@+id/blank_space10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/sercotel_3"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                app:srcCompat="@drawable/sercotel_3" />
+
+            <TextView
+                android:id="@+id/blank_space1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/sercote_description3"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="What are you waiting for? Book now and enjoy this amazing hotel steps away from the most touristic sites of the city."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/sercotel_place"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                app:srcCompat="@drawable/sercotel_place" />
+
+            <TextView
+                android:id="@+id/sercotel_blank5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/sercotel_rateus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already been here? Talk about your experience!"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/show_rating_sercotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/sercotel_ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5" />
+
+            <EditText
+                android:id="@+id/sercotel_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Give your review"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/sercotel_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit review" />
+
+            <TextView
+                android:id="@+id/blank_space6"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/second_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lisboa Hotel"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/lisboa_1"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                app:srcCompat="@drawable/lisboa_1" />
+
+            <TextView
+                android:id="@+id/lisboa_description"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="Placed just 10 minutes away from the city centre by foot; Lisboa Hotel offers a more affordable yet pleasing experience."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/lisboa_description2"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="Its main services include wi-fi, breakfast and private parking, among others."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/lisboa_2"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/lisboa_2" />
+
+            <TextView
+                android:id="@+id/blank_lisboa10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/lisboa_3"
+                android:layout_width="match_parent"
+                android:layout_height="257dp"
+                app:srcCompat="@drawable/lisboa_3" />
+
+            <TextView
+                android:id="@+id/blank_lisboa1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lisboa_description3"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="Ready for your travel? Book right away!"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/lisboa_place"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                app:srcCompat="@drawable/lisboa_place" />
+
+            <TextView
+                android:id="@+id/lisboa_blank5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lisboa_rateus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already been here? Talk about your experience!"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/show_rating_lisboa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/lisboa_ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5" />
+
+            <EditText
+                android:id="@+id/lisboa_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Give your review"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/lisboa_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit review" />
+
+            <TextView
+                android:id="@+id/blank_lisboa6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/third_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AC Hotel Badajoz"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ac_1"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                app:srcCompat="@drawable/ac_1" />
+
+            <TextView
+                android:id="@+id/ac_description"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="Located 5 minutes away from the centre by bus. This hotel will offer you a premium experience with its modern design and many services."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ac_description2"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="Within its many services you can find TV, ventilation, a fitness centre, a stunning bathroom and a buffet-like breakfast."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/ac_2"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/ac_2" />
+
+            <TextView
+                android:id="@+id/blank_ac10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/ac_3"
+                android:layout_width="match_parent"
+                android:layout_height="257dp"
+                app:srcCompat="@drawable/ac_3" />
+
+            <TextView
+                android:id="@+id/blank_ac1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/ac_description3"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="This hotel will not dissapoint you. If you like luxury, this is your place."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/ac_place"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                app:srcCompat="@drawable/ac_place" />
+
+            <TextView
+                android:id="@+id/ac_blank5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/ac_rateus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already been here? Talk about your experience!"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/show_rating_ac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/ac_ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5" />
+
+            <EditText
+                android:id="@+id/ac_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Give your review"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/ac_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit review" />
+
+            <TextView
+                android:id="@+id/blank_ac6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

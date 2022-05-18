@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KasbahActivityv2">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="384dp"
+        android:layout_height="617dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/kasbah_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="KASBAH"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/kasbah_videoview"
+                android:layout_width="match_parent"
+                android:layout_height="295dp" />
+
+            <Button
+                android:id="@+id/kasbah_audio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Audio description" />
+
+            <TextView
+                android:id="@+id/kasbah_description"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:text="Ancient citadel built by the Moores back when they reigned over Spain. It is a stunning structure and one of the biggest preserved wall fortifications of Europe."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/kasbah_picture1"
+                android:layout_width="match_parent"
+                android:layout_height="246dp"
+                app:srcCompat="@drawable/kasbah1" />
+
+            <TextView
+                android:id="@+id/kasbah_blank1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/kasbah_description2"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:text="It includes several towers, an old mosque now turned into a church and many meters of fortification, all extremely well conservated for its age. Really good place to recall Spain's moore past."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/kasbah_image2"
+                android:layout_width="match_parent"
+                android:layout_height="234dp"
+                app:srcCompat="@drawable/kasbah2" />
+
+            <TextView
+                android:id="@+id/kasbah_blank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                app:srcCompat="@drawable/kasbah3" />
+
+            <TextView
+                android:id="@+id/kasbah_blank3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="314dp"
+                app:srcCompat="@drawable/kasbah_place" />
+
+            <TextView
+                android:id="@+id/kasbah_blank4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/kasbah_rateus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Give us your opinion!"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/show_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/kasbah_ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5" />
+
+            <EditText
+                android:id="@+id/kasbah_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Give your review"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/kasbah_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit review" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

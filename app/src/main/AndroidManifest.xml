@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject_rellan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FINALPROJECTRELLAN">
+        <activity
+            android:name=".ThirdTourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondTourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstTourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ToursActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MuseumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlazaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PalmasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KasbahActivityv2"
+            android:exported="false" />
+        <activity
+            android:name=".KasbahActivity"
+            android:exported="false"
+            android:label="@string/title_activity_kasbah"
+            android:theme="@style/Theme.FINALPROJECTRELLAN.NoActionBar" />
+        <activity
+            android:name=".PlacesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccomodationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OptionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

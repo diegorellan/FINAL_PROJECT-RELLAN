@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventsActivity">
+
+    <ScrollView
+        android:layout_width="375dp"
+        android:layout_height="654dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/events_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LIST OF EVENTS"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/first_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carnival"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/carnival_1"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                app:srcCompat="@drawable/carnival_1" />
+
+            <TextView
+                android:id="@+id/carnival_description"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:text="Arguably the biggest and most famous event of the city. Badajoz's carnival is considered to be the best in Europe."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/carnival_description2"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:text="It consists of a big parade at which over 8000 people organised in groups called &quot;comparsas&quot; sing, dance and play music; each with its own costume theme which are made by themselves over the year."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/carnival_2"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                app:srcCompat="@drawable/carnival_2" />
+
+            <TextView
+                android:id="@+id/blanck_space1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/carnival_description3"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="Over 80000 people get together at the old part of the city at night time to have an enormous party, all with costumes. Definitely something you can't miss."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/carnival_place"
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+                app:srcCompat="@drawable/carnival_place" />
+
+            <TextView
+                android:id="@+id/blank_space6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/second_event"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Los Palomos"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/palomos_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/palomos_1" />
+
+            <TextView
+                android:id="@+id/blank_space2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/palomos_description"
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:text="Born from a joke back in 2011. This big party started as a protest against the major of the city who despised the LGTB community in one of his interviews. The party was organised by a very famous Spanish TV show and is now one of the biggest events of the city."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/palomos_2"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/palomos_2" />
+
+            <TextView
+                android:id="@+id/blank_space3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/palomos_description3"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:text="Last time, over 30000 people came to the event and it held concerts from one of the most famous Spanish singers. It is usually held during spring."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/palomos_place"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/palomos_place" />
+
+            <TextView
+                android:id="@+id/blank_space7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/holy_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The holy week"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/holy_1"
+                android:layout_width="match_parent"
+                android:layout_height="229dp"
+                app:srcCompat="@drawable/holy_1" />
+
+            <TextView
+                android:id="@+id/blank_space4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/holy_description"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:text="Just like in many other parts of Spain, Badajoz has its own version of the holy week, and it has nothing to envy the rest. This religious festivity is celebrated between March and April and lasts for a whole week: from Sunday to Sunday."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                app:srcCompat="@drawable/holy_2" />
+
+            <TextView
+                android:id="@+id/blank_space5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/holy_description2"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:text="During this time, many processions occur, displaying various religious statues and tropes. There are many groups, each one with its own religious figure which the take out on their shoulders and walk through the streets."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/holy_place"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                app:srcCompat="@drawable/holy_place" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

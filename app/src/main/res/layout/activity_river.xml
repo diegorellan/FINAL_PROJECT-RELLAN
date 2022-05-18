@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RiverActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="384dp"
+        android:layout_height="617dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/river_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="RIVER WALK"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/river_videoview"
+                android:layout_width="395dp"
+                android:layout_height="223dp" />
+
+            <Button
+                android:id="@+id/river_audio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="audio description" />
+
+            <TextView
+                android:id="@+id/river_description1"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:text="Nice and beautiful walk along the Guadiana River, which crosses the city. It has a lot of vegetation and many birds can be spotted in the way; specially ducks."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/river1"
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                app:srcCompat="@drawable/river1" />
+
+            <TextView
+                android:id="@+id/river_blank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/river_description2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="From there, you will have an amazing view of the city and; specially, of the kasbah and the Palmas Door. The bridge that leads to them is also very picturesque."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/river2"
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                app:srcCompat="@drawable/river2" />
+
+            <TextView
+                android:id="@+id/river_blank3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/river_description3"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:text="Along the way you will find many restaurants and cafes to enjoy the view. Also, you can go kayaking in the river and have an amazing time! Be careful though - the water is really cold."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/river3"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/river3" />
+
+            <TextView
+                android:id="@+id/river_blank4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/river4"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                app:srcCompat="@drawable/river4" />
+
+            <TextView
+                android:id="@+id/river_blank7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/river_place"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                app:srcCompat="@drawable/river_place" />
+            <TextView
+                android:id="@+id/river_blank5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/river_rateus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Give us your opinion!"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/show_rating_river"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/river_ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5" />
+
+            <EditText
+                android:id="@+id/river_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Give your review"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/river_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit review" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

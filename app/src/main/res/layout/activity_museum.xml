@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MuseumActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="384dp"
+        android:layout_height="617dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/museum_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:text="ARCHAEOLOGICAL MUSEUM"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/museum_videoview"
+                android:layout_width="395dp"
+                android:layout_height="223dp" />
+
+            <Button
+                android:id="@+id/museum_audio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="audio description" />
+
+            <TextView
+                android:id="@+id/museum_description1"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:text="Located in the highest point of the city, this museum is set in a very important building: the center of the old kasbah. It has a fortress-like structure and has been rebuilt many times."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/museum1"
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                app:srcCompat="@drawable/museum1" />
+
+            <TextView
+                android:id="@+id/museum_blank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/museum_description2"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:text="It was created in 1867 in order to preserve some valuable pieces from the Spanish confiscation that was going on during that time."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/museum2"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                app:srcCompat="@drawable/museum2" />
+
+            <TextView
+                android:id="@+id/museum_blank3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/museum_description3"
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:text="Inside, it looks like a modern museum with some Moore-like decoration. It has plenty of interesting pieces and holds limited-time expositions regularly. If you are into museums, you can't miss this one."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/museum3"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/museum3" />
+
+            <TextView
+                android:id="@+id/museum_blank4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/museum4"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                app:srcCompat="@drawable/museum4" />
+
+            <TextView
+                android:id="@+id/museum_blank5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/museum_place"
+                android:layout_width="match_parent"
+                android:layout_height="311dp"
+                app:srcCompat="@drawable/museum_place" />
+            <TextView
+                android:id="@+id/palmas_blank5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/museum_rateus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Give us your opinion!"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/show_rating_museum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/museum_ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5" />
+
+            <EditText
+                android:id="@+id/museum_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Give your review"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/museum_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit review" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

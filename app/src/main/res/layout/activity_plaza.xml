@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlazaActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="384dp"
+        android:layout_height="617dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/plaza_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PLAZA ALTA"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/plaza_videoview"
+                android:layout_width="395dp"
+                android:layout_height="223dp" />
+
+            <Button
+                android:id="@+id/plaza_audio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="audio description" />
+
+            <TextView
+                android:id="@+id/plaza_description1"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:text="Considered among the 10 most beautiful squares of Spain, Plaza Alta is what used to be center of the city during Moore reign."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                app:srcCompat="@drawable/plaza1" />
+
+            <TextView
+                android:id="@+id/plaza_blank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/plaza_description2"
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:text="During the Middle Ages, this place was used as a market, holding plenty of events and huge ammounts of people everyday. Up to this day, we can still see some markets celebrated from time to time."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                app:srcCompat="@drawable/plaza2" />
+
+            <TextView
+                android:id="@+id/plaza_blank3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/palmas_description3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Today, although it is not a vivid as it used to be, the square is still a place of gathering and holds plenty of events during the year, so it is always recommended to check it out - you might be lucky and bump into a Middle Age market!"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/plaza3" />
+
+            <TextView
+                android:id="@+id/plaza_blank4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/plaza_place"
+                android:layout_width="match_parent"
+                android:layout_height="286dp"
+                app:srcCompat="@drawable/plaza_place" />
+            <TextView
+                android:id="@+id/plaza_blank5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/plaza_rateus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Give us your opinion!"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/show_rating_plaza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/plaza_ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5" />
+
+            <EditText
+                android:id="@+id/plaza_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Give your review"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/plaza_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit review" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
